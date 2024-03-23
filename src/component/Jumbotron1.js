@@ -18,7 +18,7 @@ export default function Jumbotron1(props) {
                 </Jumbotron>
             </Styles>
         )
-    } else {
+    } else  {
         return (
             <Styles>
                 <Jumbotron fluid className='jumbo2'>

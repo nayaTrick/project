@@ -23,8 +23,8 @@ export default function NavBar(props) {
                     <Nav className="nav-title ml-auto">
                         <Nav.Link href='/'>Home</Nav.Link>
                         <Nav.Link href="/search">Search</Nav.Link>
-                        <Nav.Link href="/">Filter</Nav.Link>
-                        <Nav.Link href="/">Predict</Nav.Link>
+                        <Nav.Link href="/filter">Filter</Nav.Link>
+                        <Nav.Link href="/predict">Predict</Nav.Link>
                         
                     </Nav>
                 </Navbar.Collapse>

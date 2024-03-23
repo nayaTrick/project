@@ -6,6 +6,8 @@ import HomePage from './Page/HomePage';
 import SearchPage from './Page/SearchPage';
 import ResultPage from './Page/ResultPage';
 import Layout from './component/Layout'
+// import Filter from './Page/Filter';
+import PredictPage from './Page/PredictPage';
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
             <Route path="/" exact component={HomePage} />
             <Route path="/search" exact component={SearchPage} />
             <Route path="/result-page/:id" component={ResultPage} />
+            {/* <Route path="/filter" exact component={Filter}/> */}
+            <Route path="/predict" exact component={PredictPage}/>
           </Switch>
           <Footer />
         </Router>
